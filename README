@@ -1,0 +1,5 @@
+"index.html" is the main page where user submit a request for new GIF.
+"maker.php" gets POST submittion from "index.html" and save/display a GIF.
+
+
+Please refer to the comments in "maker.php" for more information.
