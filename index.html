@@ -1,0 +1,97 @@
+<html>
+	<head>
+	<style type="text/css">
+
+	body {
+		text-align: center;
+		font-size: 80%;
+		font-family: Helvetica, Verdana, Arial, sans-serif;
+	}
+
+	#wrapper {
+		background-color: #a9ccd4;
+		border-color: #8f328f;
+		border-style: solid;
+		border-width: 6px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0px;
+		text-align: left;
+		margin-top: 30px;
+		margin-bottom: 0px;
+		width: 700px;
+	}
+
+	h1 {
+		color: #8f328f;
+		margin-top: 30px;
+	}
+	
+	#content {
+		padding: 15px;
+	}
+	
+	#content img {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		border-style: solid;
+		border-color: white;
+		border-width: 3;
+	}
+
+	.image {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	#content form {
+		font-weight: bold;
+	}
+	
+	#footer {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 80%;
+		text-align: center;
+		background-color: #8f328f;
+		color: #a9ccd4;
+		width: 100%;
+	}
+
+	</style>
+		<title>Hack U GIF Builder</title>
+	</head>
+	<body>
+		<h1>Hi, I'm Hack U GIF Builder</h1>
+		<div class="image">
+			<img src="searchmonkey.gif" />
+		</div>
+		<div id="wrapper">
+			<div id="content">
+				<div>The last thing I built:</div>
+				<div class="image"><p><img src="new.gif" /></p></div>
+				<div><p>My father (or mother, who knows) is not as smart as you guys, I have a weak body, don't trick me.</p></div>
+				<div>
+					<p>If the filename is wrong or not given, I will take the first and the last photo.</p>
+					<p>Due to the limitation of my IQ, I can handle 70 frames at most.</p>
+				</div>
+				<form method="post" action="maker.php">
+					<div>Start image file name ("091809145350.jpg")</div>
+					<div><input type="text" name="start" /></div>
+					<div>End image file name</div>
+					<div><input type="text" name="end" /></div>
+					<div>Delay between each picture (Default: 70)</div>
+					<div><input type="text" name="interval" /></div>
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+			<div id="footer">
+				Thanks!
+			</div>
+		</div>
+	</body>
+</html>
